@@ -1,0 +1,71 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #A2AAAD;
+}
+
+
+header {
+    background-color: #236192; /*This is aves blue, and the background*/ 
+    color: #6F263D; /*This is aves burgundy  and the font color*/
+    padding: 10px 20px;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #6F263D; /*This is aves burgundy  and the font color*/;
+    text-decoration: none;
+}
+
+/* This is the start of the body section*/
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2{
+    text-align: center;
+    color: #6F263D;
+}
+
+p{
+    text-align: center;
+    color: #6F263D;
+}
+
+/* This is going to be moved to its own page
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: #A2AAAD;
+}*/
+
+label, input, textarea {
+    margin-bottom: 10px;
+}
+
+/*This button is not used.*/
+/* button {
+    background-color: #236192; /*This is aves blue, and the background*/;
+    /*color: #6F263D; /*This is aves burgundy  and the font color*/;
+    /*padding: 10px;
+    border: none;
+    cursor: pointer;
+} */
+
+
