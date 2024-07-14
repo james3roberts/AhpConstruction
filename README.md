@@ -13,6 +13,8 @@ This is the official website for AHP Construction, a general contractor speciali
   - [Contributing](#contributing)
   - [License](#license)
   - [Contact](#contact)
+  - [Commit messages](#commit-messages)
+  - [Style Guide](#style-guide)
   - [To Do list:](#to-do-list)
 
 ## Project Title and Description
@@ -71,10 +73,15 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Email**: [james.mehconstruction@gmail.com](mailto:james.mehconstruction@gmail.com)
 - **LinkedIn**: [James Roberts](https://www.linkedin.com/in/james3roberts/)
 
+## Commit messages
+- build: say what was built
+- style: say what was styled
+- refactor: say what was refactored
+- fix: say what was fixed
+- feat: say what new feature was added
+-docs: what you changed in the readme 
 
-
-
-##Style Guide
+## Style Guide
 - Because the owner is a huge colorado avalanche Fan, so I incorporated the colors into the site. 
   - The avalanche blue is used as the background and the code is #236192.
   - The avalanche burgundy is used as the font and the code is #6F263D.
