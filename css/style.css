@@ -1,71 +1,88 @@
-
+/* General styles for the body */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: #A2AAAD;
+    font-family: Arial, sans-serif; /* Font family for the entire document */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    box-sizing: border-box; /* Ensure padding and border are included in element's total width and height */
+    background-color: #A2AAAD; /* Background color */
 }
 
-
+/* Header styling */
 header {
-    background-color: #236192; /*This is aves blue, and the background*/ 
-    color: #6F263D; /*This is aves burgundy  and the font color*/
-    padding: 10px 20px;
-    text-align: center;
+    background-color: #236192; /* Aves blue background */
+    color: #6F263D; /* Aves burgundy font color */
+    padding: 10px 20px; /* Padding around the header */
+    text-align: center; /* Center the header text */
 }
+
+/* Navigation menu styling */
 nav ul {
-    list-style: none;
-    padding: 0;
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 10px;
+    display: inline; /* Display list items inline */
+    margin: 0 10px; /* Add margin between list items */
 }
 
 nav ul li a {
-    color: #6F263D; /*This is aves burgundy  and the font color*/;
-    text-decoration: none;
+    color: #6F263D; /* Aves burgundy font color */
+    text-decoration: none; /* Remove underline from links */
 }
 
-/* This is the start of the body section*/
+/* Main content area styling */
 main {
-    padding: 20px;
+    padding: 20px; /* Padding around the main content area */
 }
 
+/* Section styling */
 section {
-    margin-bottom: 20px;
+    margin-bottom: 20px; /* Margin below each section */
 }
 
-h2{
-    text-align: center;
-    color: #6F263D;
+/* Heading styling */
+h2 {
+    text-align: center; /* Center the heading text */
+    color: #6F263D; /* Aves burgundy font color */
+    text-decoration: none; /* Ensure no underline on headings */
 }
 
-p{
-    text-align: center;
-    color: #6F263D;
+/* Paragraph styling */
+p {
+    text-align: center; /* Center the paragraph text */
+    color: #6F263D; /* Aves burgundy font color */
 }
 
-/* This is going to be moved to its own page
-form {
-    display: flex;
-    flex-direction: column;
-    background-color: #A2AAAD;
-}*/
-
+/* Form element styling */
 label, input, textarea {
-    margin-bottom: 10px;
+    margin-bottom: 10px; /* Margin below each form element */
 }
 
-/*This button is not used.*/
-/* button {
-    background-color: #236192; /*This is aves blue, and the background*/;
-    /*color: #6F263D; /*This is aves burgundy  and the font color*/;
-    /*padding: 10px;
-    border: none;
-    cursor: pointer;
-} */
+/* Link styling */
+a {
+    text-decoration: none; /* Remove underline from links */
+    color: #6F263D; /* Aves burgundy font color */
+}
 
+a:hover {
+    text-decoration: wavy underline; /* Add wavy underline on hover */
+    text-decoration-color: #236192; /* Aves blue underline color on hover */
+}
 
+a:visited {
+    color: #236192; /* Aves blue font color for visited links */
+}
+
+/* Navigation bar link styling */
+.navbar a {
+    color: #6F263D; /* White font color for nav links */
+}
+
+.navbar a:hover {
+    color: #A2AAAD; /* Light gray color on hover for nav links */
+}
+
+.navbar a:visited {
+    color: #A2AAAD; /* White font color for visited nav links */
+}
