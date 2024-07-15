@@ -46,6 +46,8 @@ h2 {
     text-align: center; /* Center the heading text */
     color: #6F263D; /* Aves burgundy font color */
     text-decoration: none; /* Ensure no underline on headings */
+    padding-top: 25px;
+    padding-bottom: 10;
 }
 
 /* Paragraph styling */
