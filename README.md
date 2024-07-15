@@ -15,6 +15,7 @@ This is the official website for AHP Construction, a general contractor speciali
   - [Contact](#contact)
   - [Commit messages](#commit-messages)
   - [Style Guide](#style-guide)
+  - [To Do](#to-do)
 
 ## Project Title and Description
 
@@ -87,6 +88,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
   - The avalanche burgundy is used as the font and the code is #6F263D.
   - The avalanche silver is used as the background and the code is #A2AAAD.
 
- 
+## To Do
+-fix the color of links after clicked. they match the background
+-make the headers links 
  
 
