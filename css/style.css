@@ -19,16 +19,31 @@ header {
 nav ul {
     list-style: none; /* Remove default list styling */
     padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center the navigation items */
+    align-items: center; /* Center items vertically */
 }
 
 nav ul li {
-    display: inline; /* Display list items inline */
     margin: 0 10px; /* Add margin between list items */
 }
 
 nav ul li a {
-    color: #6F263D; /* Aves burgundy font color */
+    color: #FFFFFF; /* White font color */
     text-decoration: none; /* Remove underline from links */
+    padding: 10px 15px; /* Padding around links */
+    display: block; /* Display as block to make entire area clickable */
+}
+
+nav ul li a:hover {
+    color: #A2AAAD; /* Light gray color on hover */
+    text-decoration: wavy underline; /* Add wavy underline on hover */
+    text-decoration-color: #236192; /* Aves blue underline color on hover */
+}
+
+nav ul li a:visited {
+    color: #A2AAAD; /* Light gray font color for visited nav links */
 }
 
 /* Main content area styling */
@@ -45,9 +60,6 @@ section {
 h2 {
     text-align: center; /* Center the heading text */
     color: #6F263D; /* Aves burgundy font color */
-    text-decoration: none; /* Ensure no underline on headings */
-    padding-top: 25px;
-    padding-bottom: 10;
 }
 
 /* Paragraph styling */
@@ -74,17 +86,4 @@ a:hover {
 
 a:visited {
     color: #236192; /* Aves blue font color for visited links */
-}
-
-/* Navigation bar link styling */
-.navbar a {
-    color: #6F263D; /* White font color for nav links */
-}
-
-.navbar a:hover {
-    color: #A2AAAD; /* Light gray color on hover for nav links */
-}
-
-.navbar a:visited {
-    color: #A2AAAD; /* White font color for visited nav links */
 }
