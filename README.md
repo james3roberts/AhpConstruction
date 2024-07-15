@@ -15,7 +15,6 @@ This is the official website for AHP Construction, a general contractor speciali
   - [Contact](#contact)
   - [Commit messages](#commit-messages)
   - [Style Guide](#style-guide)
-  - [To Do list:](#to-do-list)
 
 ## Project Title and Description
 
@@ -79,7 +78,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - refactor: say what was refactored
 - fix: say what was fixed
 - feat: say what new feature was added
--docs: what you changed in the readme 
+- docs: what you changed in the readme 
+- test: What was tested
 
 ## Style Guide
 - Because the owner is a huge colorado avalanche Fan, so I incorporated the colors into the site. 
@@ -87,22 +87,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
   - The avalanche burgundy is used as the font and the code is #6F263D.
   - The avalanche silver is used as the background and the code is #A2AAAD.
 
-
-## To Do list:
-   -add anchor tags to services.
-   -add anchor tags to subcontractors.
-   -add anchor tags to contact us.
-   -add anchor tags to gallery .
-   -change the color of the underlying line on links.
-   -change the hover link color.
-   -change the color after link is clicked.
-   -create page for about us.
-   -create page for subcontractors.
-   -create page for contact us.
-   -create page for gallery.
-    -fix descriptions under services. 
-    -fix descriptions under subcontractors.
-    -fix descriptions under contact us.
-    -fix descriptions under gallery. 
-    -play with the idea of a dropdown menue in the nav bar. 
+ 
+ 
 
