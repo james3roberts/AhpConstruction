@@ -46,6 +46,29 @@ nav ul li a:visited {
     color: #A2AAAD; /* Light gray font color for visited nav links */
 }
 
+/* page title section */
+.page-title {
+    display: inline-block; /* Make the box fit the content */
+    background-color: #236192; /* Aves blue color */
+    color: #6F263D; /* Aves burgundy color */
+    padding: 10px; /* Give it some room around the text */
+    border: 2px solid #6F263D; /* Aves burgundy border */
+    border-radius: 5px; /* Rounded corners */
+    margin: 20px 0; /* Margin around the box */
+    text-align: center; /* Center the text */
+    /* Center the box within the parent container */
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.page-title h1 {
+    margin: 0; /* Remove default margin */
+    font-size: 1.5em; /* Adjust font size as needed */
+    line-height: 1.2; /* Adjust line height as needed */
+}
+
+
 /* Main content area styling */
 main {
     padding: 20px; /* Padding around the main content area */
