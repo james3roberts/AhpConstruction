@@ -110,3 +110,57 @@ a:hover {
 a:visited {
     color: #236192; /* Aves blue font color for visited links */
 }
+
+/*service list styling. */
+.service-list{
+    list-style: none; /*to remvoe any default styling*/
+    padding: 0; /*to remvoe any default padding*/
+    text-align: center;/*putting the text into the center of the page.*/
+}
+
+.service-list{
+    background-color: #236192; /*aves blue color*/
+    color: #6F263D;/*aves burgendy color*/
+    padding: 10px 15px; /*padding around the list items*/
+    margin: 10px 0; /*margin around the list items*/
+    border-radius: 5px;/*to give the corners a rounded edge*/
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a slight shadow */
+
+}
+
+
+/* Gallery page styles */
+.gallery {
+    padding: 20px;
+}
+
+.gallery h2 {
+    text-align: center;
+    color: #236192;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.gallery-item {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 10px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.gallery-item p {
+    margin: 10px 0 0;
+    color: #333;
+}
