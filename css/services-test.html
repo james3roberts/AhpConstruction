@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Page Examples</title>
+    <style>
+        /* Add CSS styles from each example here */
+        .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .card {
+        position: relative;
+        width: 250px;
+        height: 200px;
+        background-color: #f4f4f4;
+        padding: 20px;
+        border-radius: 8px;
+        text-align: center;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+        transform: scale(1.05);
+    }
+
+    .card h3 {
+        margin-bottom: 10px;
+    }
+
+    .card p {
+        font-size: 14px;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+
+    .card:hover p {
+        opacity: 1;
+    }
+        
+/*End of css*/
+    </style>
+</head>
+<body>
+    <!-- Add HTML structure from each example here -->
+    <div class="card-container">
+        <div class="card">
+            <h3>Home Building</h3>
+            <p>Custom homes built with precision and care.</p>
+        </div>
+        <div class="card">
+            <h3>Garages</h3>
+            <p>Quality garages tailored to your needs.</p>
+        </div>
+        <div class="card">
+            <h3>Additions</h3>
+            <p>Seamlessly integrated additions.</p>
+        </div>
+        <div class="card">
+            <h3>Sheds</h3>
+            <p>Durable sheds for storage, workshops, or other purposes.</p>
+        </div>
+        <!-- Additional cards for services -->
+    </div>
+    <!--end of html-->
+</body>
+</html>
